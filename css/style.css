@@ -142,11 +142,27 @@ button::-moz-focus-inner {
 	height:853px;
 	margin:0 auto;
 }
+.index > div:before, .index > div:after {
+	content:'';
+	position:absolute;
+	top:0;
+	z-index:1;
+	width:159px;
+	height:100%;
+}
+.index > div:before {
+	left:0;
+	background:url('../img/index_gradient.png') repeat-y left;
+}
+.index > div:after {
+	right:0;
+	background:url('../img/index_gradient.png') repeat-y -159px;
+}
 .index .logo {
 	position:absolute;
 	left:-1px;
 	top:69px;
-	z-index:1;
+	z-index:2;
 }
 .index .slider {
 	position:relative;
