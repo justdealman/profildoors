@@ -401,6 +401,7 @@ button::-moz-focus-inner {
 .series > div {
 	position:relative;
 	max-width:1360px;
+	min-height:374px;
 	margin:0 auto;
 }
 .series > div > ul {
@@ -483,7 +484,7 @@ button::-moz-focus-inner {
 	height:322px;
 	background:url('../img/series_element1.png') no-repeat 138px 10px;
 }
-.series > div > div > div .element1 p {
+.series > div > div > div .element1 p, .series > div > div > div .element2 p {
 	position:absolute;
 	color:#ffffff;
 	font-size:14px;
@@ -493,14 +494,14 @@ button::-moz-focus-inner {
 	margin:0;
 	background:#402530;
 }
-.series > div > div > div .element1 p:before {
+.series > div > div > div .element1 p:before, .series > div > div > div .element2 p:before {
 	content:'';
 	position:absolute;
 	width:62px;
 	height:66px;
 	background:url('../img/series_element_before.png') no-repeat left top;
 }
-.series > div > div > div .element1 p:after {
+.series > div > div > div .element1 p:after, .series > div > div > div .element2 p:after {
 	content:'';
 	position:absolute;
 	width:65px;
@@ -543,6 +544,42 @@ button::-moz-focus-inner {
 .series > div > div > div .element1 .tip3:after {
 	display:none;
 }
+.series > div > div > div .element2 {
+	position:absolute;
+	right:70px;
+	top:24px;
+	width:633px;
+	height:322px;
+	background:url('../img/series_element2.png') no-repeat 55px 47px;
+}
+.series > div > div > div .element2 .tip1 {
+	left:402px;
+	top:13px;
+	width:125px;
+	padding:8px 32px 9px;
+}
+.series > div > div > div .element2 .tip1:after {
+	display:none;
+}
+.series > div > div > div .element2 .tip1:before {
+	left:-55px;
+	bottom:-43px;
+}
+.series > div > div > div .element2 .tip2 {
+	left:286px;
+	top:237px;
+	width:168px;
+	padding:8px 24px 9px;
+}
+.series > div > div > div .element2 .tip2:after {
+	right:-50px;
+	top:-38px;
+}
+.series > div > div > div .element2 .tip2:before {
+	display:none;
+}
+
+
 
 /* Footer */
 
