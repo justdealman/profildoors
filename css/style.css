@@ -882,16 +882,6 @@ button::-moz-focus-inner {
 	vertical-align:top;
 	margin:0 -3px 20px 0;
 }
-@media screen and (max-width: 1359px) {
-	.list ul li:nth-child(5n+1) {
-		margin-left:0 !important;
-	}
-}
-@media screen and (min-width: 1360px) {
-	.list ul li:nth-child(6n+1) {
-		margin-left:0 !important;
-	}
-}
 .list ul li a {
 	display:block;
 	text-decoration:none;
@@ -1215,4 +1205,9 @@ div.text ul li:before {
 }
 .fotorama__arr--disabled {
 	background:none !important;
+}
+
+.intro .text {
+	margin:27px 0 23px -70px;
+	width:100%;
 }
