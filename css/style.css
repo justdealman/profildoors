@@ -1244,7 +1244,7 @@ div.text ul li:before {
 	background:none !important;
 }
 
-.intro .text {
+.intro .text, .articles .text {
 	margin:27px 0 23px -70px;
 	width:100%;
 }
