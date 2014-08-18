@@ -38,7 +38,7 @@ body {
     font-family:'PT Sans', sans-serif;
 	padding:0;
 	margin:0;
-	background:#000000;
+	background:#2e3028 url('../img/main_bg.png') repeat;
 }
 p {
 	text-indent:0;
@@ -126,6 +126,7 @@ button::-moz-focus-inner {
 }
 .wrapper {
 	position:relative;
+	z-index:1;
 	min-width:1000px;
 	max-width:1360px;
 	min-height:100%;
@@ -1247,4 +1248,19 @@ div.text ul li:before {
 .intro .text, .articles .text {
 	margin:27px 0 23px -70px;
 	width:100%;
+}
+
+.lshadow {
+	position:fixed;
+	left:0;
+	top:0;
+	height:100%;
+	background:url('../img/lshadow.png') repeat-y right;
+}
+.rshadow {
+	position:fixed;
+	right:0;
+	top:0;
+	height:100%;
+	background:url('../img/rshadow.png') repeat-y left;
 }
