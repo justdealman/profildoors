@@ -125,8 +125,6 @@ button::-moz-focus-inner {
 	color:#999999;
 }
 .wrapper {
-	position:relative;
-	z-index:1;
 	min-width:1000px;
 	max-width:1360px;
 	min-height:100%;
@@ -586,6 +584,7 @@ button::-moz-focus-inner {
 
 .footer {
 	position:relative;
+	z-index:1;
 	max-width:1360px;
 	padding:0 0 86px;
 	margin:0 auto;
